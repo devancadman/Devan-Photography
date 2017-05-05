@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	padding: 1% 0;
+	background: #dbe9f0;
+}
+
+header {
+	
+	/*Text colour for header*/
+    color: #004a98;
+	
+	/*Centering the text*/
+    text-align:center;
+	
+	/*Adding some spacing*/
+    padding:5px;
+	
+	/*Changes Text Size*/
+	font-size:20px
+}
+
+h1 {
+	text-align: center;
+	text-transform: none;
+	border-bottom: 3px solid #405459;
+	margin-top: 30px;
+}
+
+h2 {
+  color:black;
+}
+
+h3{
+  color:black;
+}
+
+img {
+	width: 23%;
+	margin: 1%;
+	vertical-align: middle;
+	transition: all 2s, transform .5s, box-shadow .5s;
+}
+		
+img:hover {
+	box-shadow: 6px 6px 20px rgba(0,0,0,.6);
+	transform: scale(1.02);
+}
+			
+img:focus {
+	box-shadow: 12px 12px 25px rgba(0, 0, 0, .7);
+	width: 47%;
+	transform: none;
+}
